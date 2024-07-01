@@ -1,0 +1,13 @@
+#* text=auto
+#*.css linguist-vendored
+#*.scss linguist-vendored
+#*.js linguist-vendored
+#CHANGELOG.md export-ignore
+
+# Configurar los archivos que deben tener saltos de línea LF (Unix-style)
+* text eol=lf
+
+# Archivos específicos que deben tener saltos de línea CRLF (Windows-style)
+*.php text eol=crlf
+*.js text eol=crlf
+webpack.mix.js text eol=crlf
